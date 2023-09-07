@@ -1,0 +1,380 @@
+<html lang="en-us" dir="rtl">
+  <script
+    type="text/javascript"
+    async=""
+    src="https://cdn.segment.com/analytics.js/v1/zv54ABG9ooaR8TbYgC8DFMT2N5UwGcv0/analytics.min.js"
+  ></script>
+  <script src="https://js-agent.newrelic.com/nr-spa-1212.min.js"></script>
+  <script src="chrome-extension://mjnbclmflcpookeapghfhapeffmpodij/injected_content.js"></script>
+  <head>
+   <link rel="stylesheet" href="/login/main.css">
+  </head>
+  <body>
+    <div id="root">
+      <div class="col-md-12 extra-large-screen-top-stripe"></div>
+      <div class="layout">
+        <div class="w-50 d-flex">
+          <div class="col-md-9 bg-primary-400">
+            <a
+              class="pgn__hyperlink default-link standalone-link"
+              href="https://www.edx.org"
+              target="_self"
+              ><img
+                alt="edX"
+                src="https://edx-cdn.org/v3/prod/logo-white.svg"
+                class="logo position-absolute"
+            /></a>
+            <div class="min-vh-100 d-flex align-items-center">
+              <div class="large-yellow-line mr-n4.5"></div>
+              <h1 class="display-2 text-white mw-xs">
+                ابدأ التعلم
+                <div class="text-accent-a">مع edX</div>
+              </h1>
+            </div>
+          </div>
+          <div class="col-md-3 bg-white p-0">
+            <svg
+              class="ml-n1 w-100 h-100 large-screen-svg-primary"
+              preserveAspectRatio="xMaxYMin meet"
+            >
+              <g transform="skewX(171.6)">
+                <rect x="0" y="0" height="100%" width="100%"></rect>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="content">
+          <div>
+            <div>
+              <div>
+                <nav class="pgn__tabs nav nav-tabs" role="tablist">
+                  <a
+                    id="controlled-tab-tab-/register"
+                    href="#"
+                    role="tab"
+                    data-rb-event-key="/register"
+                    aria-controls="controlled-tab-tabpane-/register"
+                    aria-selected="false"
+                    class="nav-item nav-link"
+                    >التسجيل</a
+                  ><a
+                    id="controlled-tab-tab-/login"
+                    href="#"
+                    role="tab"
+                    data-rb-event-key="/login"
+                    aria-controls="controlled-tab-tabpane-/login"
+                    aria-selected="true"
+                    class="nav-item nav-link active"
+                    >تسجيل الدخول</a
+                  ><a
+                    id="controlled-tab-tab-null"
+                    href="#"
+                    role="tab"
+                    aria-controls="controlled-tab-tabpane-null"
+                    class="pgn__tab_invisible pgn__tab_more nav-item nav-link"
+                    tabindex="-1"
+                    ><div
+                      data-testid="dropdown"
+                      class="pgn__dropdown pgn__dropdown-light dropdown"
+                    >
+                      <button
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        id="pgn__tab-toggle"
+                        type="button"
+                        class="nav-link dropdown-toggle btn btn-link"
+                      >
+                        More...
+                      </button>
+                    </div></a
+                  >
+                </nav>
+                <div class="tab-content">
+                  <div
+                    id="controlled-tab-tabpane-/register"
+                    aria-labelledby="controlled-tab-tab-/register"
+                    role="tabpanel"
+                    aria-hidden="true"
+                    class="fade tab-pane"
+                  ></div>
+                  <div
+                    id="controlled-tab-tabpane-/login"
+                    aria-labelledby="controlled-tab-tab-/login"
+                    role="tabpanel"
+                    aria-hidden="false"
+                    class="fade tab-pane active show"
+                  ></div>
+                  <div
+                    id="controlled-tab-tabpane-undefined"
+                    aria-labelledby="controlled-tab-tab-undefined"
+                    role="tabpanel"
+                    aria-hidden="true"
+                    class="fade tab-pane"
+                  ></div>
+                </div>
+              </div>
+              <div id="main-content" class="main-content">
+                <div class="mw-xs mt-3">
+                  <form name="sign-in-form" id="sign-in-form" class="">
+                    <div class="pgn__form-group">
+                      <div
+                        class="pgn__form-control-decorator-group has-floating-label form-group__form-field"
+                      >
+                        <input
+                          aria-invalid="false"
+                          autocomplete="on"
+                          name="emailOrUsername"
+                          type="text"
+                          id="emailOrUsername"
+                          class="form-control"
+                          value=""
+                        />
+                        <div class="pgn__form-control-floating-label">
+                          <div class="pgn__form-control-floating-label-content">
+                            <label
+                              class="pgn__form-control-floating-label-text"
+                              for="emailOrUsername"
+                              >اسم المستخدم أو البريد الإلكتروني</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="pgn-transition-replace-group position-relative"
+                      >
+                        <div style="padding: 0.1px 0px"><div></div></div>
+                      </div>
+                    </div>
+                    <div class="pgn__form-group">
+                      <div
+                        class="pgn__form-control-decorator-group has-appended-node has-trailing-element has-floating-label form-group__form-field"
+                      >
+                        <input
+                          name="password"
+                          autocomplete="off"
+                          aria-invalid="false"
+                          type="password"
+                          id="password"
+                          class="form-control"
+                          value=""
+                        />
+                        <div
+                          class="pgn__form-control-decorator pgn__form-control-decorator-trailing"
+                        >
+                          <button
+                            aria-label="إظهار كلمة المرور"
+                            class="btn-icon btn-icon-secondary btn-icon-sm"
+                            type="button"
+                            name="passwordIcon"
+                          >
+                            <span class="btn-icon__icon-container"
+                              ><span class="pgn__icon btn-icon__icon"
+                                ><svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  role="img"
+                                  focusable="false"
+                                  aria-hidden="true"
+                                >
+                                  <path
+                                    d="M12 4C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4Zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5Zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3Z"
+                                    fill="currentColor"
+                                  ></path></svg></span
+                            ></span>
+                          </button>
+                        </div>
+                        <div class="pgn__form-control-floating-label">
+                          <div class="pgn__form-control-floating-label-content">
+                            <label
+                              class="pgn__form-control-floating-label-text"
+                              for="password"
+                              >كلمة المرور</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      aria-live="assertive"
+                      aria-disabled="false"
+                      name="sign-in"
+                      id="sign-in"
+                      type="submit"
+                      class="pgn__stateful-btn pgn__stateful-btn-state-default login-button-width btn btn-brand"
+                    >
+                      <span
+                        class="d-flex align-items-center justify-content-center"
+                        ><span>تسجيل الدخول</span></span
+                      ></button
+                    ><a
+                      id="forgot-password"
+                      name="forgot-password"
+                      class="btn btn-link font-weight-500 text-body"
+                      href="/reset"
+                      >نسيت كلمة المرور</a
+                    >
+                    <div class="mt-4 mb-3 h4">
+                      أو قم بتسجيل الدخول باستخدام:
+                    </div>
+                    <a
+                      class="pgn__hyperlink default-link standalone-link btn btn-link btn-sm text-body p-0 mb-4"
+                      href="https://courses.edx.org/enterprise/login"
+                      target="_self"
+                      ><span class="pgn__icon institute-icon"
+                        ><svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          role="img"
+                          focusable="false"
+                          aria-hidden="true"
+                        >
+                          <path
+                            d="M4 10v7h3v-7H4Zm6 0v7h3v-7h-3ZM2 22h19v-3H2v3Zm14-12v7h3v-7h-3Zm-4.5-9L2 6v2h19V6l-9.5-5Z"
+                            fill="currentColor"
+                          ></path></svg></span
+                      >بيانات الشركة أو المدرسة</a
+                    >
+                    <div class="row m-0">
+                      <button
+                        id="oa2-apple-id"
+                        type="button"
+                        class="btn-social btn-oa2-apple-id mr-3"
+                        data-provider-url="/auth/login/apple-id/?auth_entry=login&amp;next=%2Fdashboard"
+                      >
+                        <div aria-hidden="true">
+                          <img
+                            class="btn-tpa__image-icon"
+                            src="https://edxuploads.s3.amazonaws.com/Left_White_Logo_Large2x.png"
+                            alt="icon Apple"
+                          />
+                        </div>
+                        <span
+                          id="provider-name"
+                          class="notranslate mr-auto pl-2"
+                          aria-hidden="true"
+                          >Apple</span
+                        ><span class="sr-only"
+                          >تسجيل الدخول باستخدام Apple</span
+                        ></button
+                      ><button
+                        id="oa2-facebook"
+                        type="button"
+                        class="btn-social btn-oa2-facebook"
+                        data-provider-url="/auth/login/facebook/?auth_entry=login&amp;next=%2Fdashboard"
+                      >
+                        <div aria-hidden="true">
+                          <img
+                            class="btn-tpa__image-icon"
+                            src="https://edxuploads.s3.amazonaws.com/f_logo_RGB-White_58.png"
+                            alt="icon Facebook"
+                          />
+                        </div>
+                        <span
+                          id="provider-name"
+                          class="notranslate mr-auto pl-2"
+                          aria-hidden="true"
+                          >Facebook</span
+                        ><span class="sr-only"
+                          >تسجيل الدخول باستخدام Facebook</span
+                        ></button
+                      ><button
+                        id="oa2-google-oauth2"
+                        type="button"
+                        class="btn-social btn-oa2-google-oauth2 mr-3"
+                        data-provider-url="/auth/login/google-oauth2/?auth_entry=login&amp;next=%2Fdashboard"
+                      >
+                        <div aria-hidden="true">
+                          <img
+                            class="btn-tpa__image-icon"
+                            src="https://edxuploads.s3.amazonaws.com/btn_google_light.svg"
+                            alt="icon Google"
+                          />
+                        </div>
+                        <span
+                          id="provider-name"
+                          class="notranslate mr-auto pl-2"
+                          aria-hidden="true"
+                          >Google</span
+                        ><span class="sr-only"
+                          >تسجيل الدخول باستخدام Google</span
+                        ></button
+                      ><button
+                        id="oa2-azuread-oauth2"
+                        type="button"
+                        class="btn-social btn-oa2-azuread-oauth2"
+                        data-provider-url="/auth/login/azuread-oauth2/?auth_entry=login&amp;next=%2Fdashboard"
+                      >
+                        <div aria-hidden="true">
+                          <img
+                            class="btn-tpa__image-icon"
+                            src="https://edxuploads.s3.amazonaws.com/MSFT-logo-only.png"
+                            alt="icon Microsoft"
+                          />
+                        </div>
+                        <span
+                          id="provider-name"
+                          class="notranslate mr-auto pl-2"
+                          aria-hidden="true"
+                          >Microsoft</span
+                        ><span class="sr-only"
+                          >تسجيل الدخول باستخدام Microsoft</span
+                        >
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+      integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+      data-cf-beacon='{"rayId":"8030e85b0a365255","token":"7e7e0d8a3be64c7ba2cf01bcb532c718","version":"2023.8.0","si":100}'
+      crossorigin="anonymous"
+    ></script>
+    <iframe
+      frameborder="0"
+      scrolling="no"
+      style="background-color: transparent; border: 0px; display: none"
+    ></iframe>
+    <div
+      id="GOOGLE_INPUT_CHEXT_FLAG"
+      style="display: none"
+      input=""
+      input_stat='{"tlang":true,"tsbc":true,"pun":true,"mk":true,"ss":true}'
+    ></div>
+    <script
+      defer=""
+      id="ze-snippet"
+      src="https://static.zdassets.com/ekr/snippet.js?key=41d731a2-b733-492b-b5af-2b2eeb1f1eec"
+    ></script>
+    <iframe
+      data-product="web_widget"
+      title="No content"
+      role="presentation"
+      tabindex="-1"
+      allow="microphone *"
+      aria-hidden="true"
+      src="about:blank"
+      style="
+        width: 0px;
+        height: 0px;
+        border: 0px;
+        position: absolute;
+        top: -9999px;
+      "
+    ></iframe>
+    <div>
+    </div>
+  </body>
+</html>
