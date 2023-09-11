@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="window-wrap" dir="rtl">
+      <a class="nav-skip sr-only sr-only-focusable" href="#main"
+        >الانتقال إلى المحتوى الرئيسي</a
+      >
+
+      <header class="global-header">
+        <div class="main-header">
+          <h1 class="header-logo">
+            <a href="/dashboard">
+              <img
+                class="logo"
+                src="https://edx-cdn.org/v3/prod/logo.svg"
+                alt="الصفحة الرئيسية لمنصّة edX"
+              />
+            </a>
+          </h1>
+
+          <div
+            class="hamburger-menu"
+            role="button"
+            aria-label="قائمة"
+            الخيارات=""
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            tabindex="0"
+          >
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+
+          <div class="nav-links">
+            <div class="main">
+              <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
+                <a class="tab-nav-link" href="/dashboard" aria-current="false">
+                  مساقات
+                </a>
+              </div>
+              <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
+                <a
+                  class="active tab-nav-link"
+                  href="/dashboard/programs/"
+                  aria-current="page"
+                >
+                  برامج
+                </a>
+              </div>
+              <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
+                <a
+                  class="tab-nav-link discover-new-link"
+                  href="https://www.edx.org/search"
+                  aria-current="false"
+                >
+                  اكتشف الجديد
+                </a>
+              </div>
+            </div>
+            <div class="secondary">
+              <div class="mobile-nav-item hidden-mobile nav-item">
+                <a
+                  class="help-link"
+                  href="https://support.edx.org"
+                  rel="noopener"
+                  target="_blank"
+                  >المساعدة</a
+                >
+              </div>
+
+              <div class="nav-item hidden-mobile">
+                <a href="/dashboard" class="menu-title">
+                  <img
+                    data-hj-suppress=""
+                    class="user-image-frame"
+                    src="https://prod-edx-edxapp-assets.edx-cdn.org/static/edx.org-next/images/profiles/default_50.d29941819645.png"
+                    alt=""
+                  />
+                  <span class="sr-only">لوحة المعلومات لـ:</span>
+                  <span data-hj-suppress="" class="username">free_2810</span>
+                </a>
+              </div>
+              <div
+                class="nav-item hidden-mobile nav-item-dropdown"
+                tabindex="-1"
+              >
+                <div
+                  class="toggle-user-dropdown"
+                  role="button"
+                  aria-label="قائمة"
+                  الخيارات=""
+                  aria-expanded="false"
+                  tabindex="0"
+                  aria-controls="user-menu"
+                >
+                  <span class="fa fa-caret-down" aria-hidden="true"></span>
+                </div>
+                <div
+                  class="dropdown-user-menu hidden"
+                  aria-label="المزيد"
+                  من=""
+                  الخيارات=""
+                  role="menu"
+                  id="user-menu"
+                  tabindex="-1"
+                >
+                  <div class="mobile-nav-item dropdown-item dropdown-nav-item">
+                    <a href="/dashboard" role="menuitem">لوحة المعلومات</a>
+                  </div>
+                  <div class="mobile-nav-item dropdown-item dropdown-nav-item">
+                    <a href="https://careers.edx.org/" role="menuitem"
+                      >Career <span class="badge badge-warning">New</span></a
+                    >
+                  </div>
+
+                  <div class="mobile-nav-item dropdown-item dropdown-nav-item">
+                    <a href="/u/free_2810" role="menuitem">الملف الشخصي</a>
+                  </div>
+                  <div class="mobile-nav-item dropdown-item dropdown-nav-item">
+                    <a href="/account/settings" role="menuitem">الحساب</a>
+                  </div>
+                  <div class="mobile-nav-item dropdown-item dropdown-nav-item">
+                    <a href="https://orders.edx.org/orders" role="menuitem">
+                      Orders &amp; Subscriptions
+                    </a>
+                  </div>
+                  <div class="mobile-nav-item dropdown-item dropdown-nav-item">
+                    <a href="/logout" role="menuitem">تسجيل الخروج</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mobile-menu hidden"
+          aria-label="المزيد"
+          من=""
+          الخيارات=""
+          role="menu"
+          id="mobile-menu"
+        >
+          <div
+            class="mobile-nav-item hidden-mobile nav-item nav-tab mobile-nav-link"
+          >
+            <a
+              class="tab-nav-link"
+              href="/dashboard"
+              aria-current="false"
+              role="menuitem"
+            >
+              مساقات
+            </a>
+          </div>
+          <div
+            class="mobile-nav-item hidden-mobile nav-item nav-tab mobile-nav-link"
+          >
+            <a
+              class="active tab-nav-link"
+              href="/dashboard/programs/"
+              aria-current="page"
+              role="menuitem"
+            >
+              برامج
+            </a>
+          </div>
+          <div
+            class="mobile-nav-item hidden-mobile nav-item nav-tab mobile-nav-link"
+          >
+            <a
+              class="tab-nav-link discover-new-link"
+              href="https://www.edx.org/search"
+              aria-current="false"
+              role="menuitem"
+            >
+              اكتشف الجديد
+            </a>
+          </div>
+          <div class="mobile-nav-item hidden-mobile nav-item mobile-nav-link">
+            <a
+              class="help-link"
+              href="https://support.edx.org"
+              rel="noopener"
+              target="_blank"
+              role="menuitem"
+              >المساعدة</a
+            >
+          </div>
+          <div
+            class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"
+          >
+            <a href="/dashboard" role="menuitem">لوحة المعلومات</a>
+          </div>
+          <div
+            class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"
+          >
+            <a href="https://careers.edx.org/" role="menuitem"
+              >Career <span class="badge badge-warning">New</span></a
+            >
+          </div>
+          <div
+            class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"
+          >
+            <a href="/u/free_2810" role="menuitem">الملف الشخصي</a>
+          </div>
+          <div
+            class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"
+          >
+            <a href="/account/settings" role="menuitem">الحساب</a>
+          </div>
+          <div
+            class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"
+          >
+            <a href="https://orders.edx.org/orders" role="menuitem">
+              Orders &amp; Subscriptions
+            </a>
+          </div>
+          <div
+            class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"
+          >
+            <a href="/logout" role="menuitem">تسجيل الخروج</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="marketing-hero"></div>
+
+      <div class="content-wrapper main-container" id="content" dir="rtl">
+        <main id="main" aria-label="Content" tabindex="-1">
+          <div class="program-list-wrapper grid-container">
+            <div class="program-list-container col-12 col-md-9">
+              <div class="js-program-list-header"></div>
+              <div class="program-cards-container col">
+                <section class="empty-programs-message">
+                  <h2 class="hd-3">أنت لست منضماً لأي برامج بعد.</h2>
+                  <a
+                    class="btn btn-primary"
+                    href="https://www.edx.org/course?program=all"
+                  >
+                    <span class="icon fa fa-search" aria-hidden="true"></span>
+                    <span>استكشاف برامج</span>
+                  </a>
+                </section>
+              </div>
+            </div>
+            <div class="sidebar col-12 col-md-3"></div>
+          </div>
+
+       
+        </main>
+      </div>
+
+      <!-- <footer id="footer-edx-v3" role="contentinfo" aria-label="Page Footer">
+        <div class="container">
+          <div class="row main-row">
+            #row
+            <div
+              class="col-xl-2 col-lg-12 col-md-2 col-sm-8 col-xs-10 column-1 flex-column column-styles"
+            >
+              <div class="row">
+                <div class="col-12 column-2-2 column-styles">
+                  <div class="edx-footer-logo">
+                    <a href="https://www.edx.org">
+                      <img
+                        alt="edX Home Page"
+                        src="https://edx-cdn.org/v3/prod/logo-trademark.svg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-6 col-lg-8 col-md-9 col-sm-5 col-xs-12 column-2 flex-column column-styles"
+            >
+              <div class="row full-height">
+                <div
+                  class="col-xl-4 col-lg-4 col-md-4 col-sm-12 column-2-1 col-xs-12 first-div-border column-styles"
+                >
+                  <div class="row full-height">
+                    <div
+                      class="ml-xl-0 col-lg-10 ml-lg-auto col-md-12 column-2-2 col-sm-10 full-height column-styles"
+                    >
+                      <h2 class="heading">edX</h2>
+                      <ul class="list-unstyled clear-margins">
+                        <li>
+                          <a href="https://www.edx.org/about-us">لمحة عن</a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://business.edx.org/?utm_campaign=edX.org+Referral&amp;utm_medium=Footer&amp;utm_source=edX.org"
+                            >edX للأعمال التجارية</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 column-2-1 second-div-border column-styles"
+                >
+                  <div class="row full-height">
+                    <div
+                      class="col-lg-12 col-md-12 col-sm-10 column-2-2 full-height column-styles"
+                    >
+                      <h2 class="heading">Legal</h2>
+                      <ul class="list-unstyled clear-margins">
+                        <li>
+                          <a href="https://www.edx.org/edx-terms-service"
+                            >شروط الخدمة وميثاق الشرف الأكاديمي</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://www.edx.org/edx-privacy-policy"
+                            >سياسة الخصوصية</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.edx.org/edx-privacy-policy/cookies"
+                            >Cookie Policy</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://www.edx.org/accessibility"
+                            >سياسة إمكانية الوصول
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.edx.org/?opendns=true"
+                            >Your Privacy Choices</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 column-2-1 third-div-border column-styles"
+                >
+                  <div class="row full-height">
+                    <div
+                      class="col-lg-12 col-md-12 col-sm-10 full-height column-2-2 column-styles"
+                    >
+                      <h2 class="heading">التواصل</h2>
+                      <ul class="list-unstyled clear-margins">
+                        <li>
+                          <a href="https://www.edx.org/resources">المدوّنة</a>
+                        </li>
+                        <li>
+                          <a href="https://courses.edx.org/support/contact_us"
+                            >اتصل بنا</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://support.edx.org">مركز المساعدة</a>
+                        </li>
+                        <li>
+                          <a href="https://www.edx.org/policy/security"
+                            >Security</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-4 col-lg-4 col-md-9 ml-md-auto col-sm-7 column-3 flex-column fourth-div-border column-styles"
+            >
+              <div class="row">
+                <div
+                  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 column-3-1 social-app-links-div column-styles ml-auto"
+                >
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 column-3-2 column-styles">
+                      <ul class="list-inline list-unstyled social">
+                        <li>
+                          <a
+                            href="http://www.facebook.com/EdxOnline"
+                            class="social-links external"
+                            title="فيسبوك"
+                            rel="noreferrer"
+                          >
+                            <span
+                              class="icon fa fa-facebook-square"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr">Like edX on Facebook</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://twitter.com/edXOnline"
+                            class="social-links external"
+                            title="تويتر"
+                            rel="noreferrer"
+                          >
+                            <span
+                              class="icon fa fa-twitter-square"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr">Follow edX on Twitter</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.linkedin.com/company/edx"
+                            class="social-links external"
+                            title="LinkedIn"
+                            rel="noreferrer"
+                          >
+                            <span
+                              class="icon fa fa-linkedin-square"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr">Follow edX on LinkedIn</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            class="social-links external"
+                            title="انستغرام"
+                            rel="noreferrer"
+                          >
+                            <span
+                              class="icon fa fa-instagram"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr">Follow edX on Instagram</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.reddit.com/r/edx"
+                            class="social-links external"
+                            title="Reddit"
+                            rel="noreferrer"
+                          >
+                            <span
+                              class="icon fa fa-reddit-square"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr"
+                              >Subscribe to the edX subreddit</span
+                            >
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="list-inline list-unstyled app-links">
+                        <li>
+                          <a
+                            href="https://itunes.apple.com/us/app/edx/id945480667?mt=8"
+                            class="app-link external"
+                          >
+                            <img
+                              alt="يُرجى تنزيل تطبيق الهاتف المحمول لمنصّة edX من متجر آبل"
+                              src="https://prod-edx-edxapp-assets.edx-cdn.org/static/images/app/app_store_badge_135x40.d0558d910630.svg"
+                            />
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://play.google.com/store/apps/details?id=org.edx.mobile"
+                            class="app-link external"
+                          >
+                            <img
+                              alt="يُرجى تنزيل تطبيق الهاتف المحمول لمنصّة edX من غوغل بلاي"
+                              src="https://prod-edx-edxapp-assets.edx-cdn.org/static/images/app/google_play_badge_45.6ea466e328da.png"
+                            />
+                          </a>
+                        </li>
+                      </ul>
+                      <p class="copyright">
+                        © 2023 edX LLC. All rights reserved.
+                        <br />
+                        | 深圳市恒宇博科技有限公司
+                        <a href="https://beian.miit.gov.cn">
+                          粤ICP备17044299号-2
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer> -->
+
+      <link
+        href="https://prod-edx-edxapp-assets.edx-cdn.org/static/edx.org-next/css/lms-footer-edx-rtl.3a814319d3d1.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+    </div>
+  </body>
+</html>
